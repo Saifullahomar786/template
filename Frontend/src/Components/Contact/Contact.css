@@ -1,0 +1,84 @@
+#teammembers {
+  display: flex;
+  padding-top: 20px;
+  overflow-y: auto;
+}
+
+.contact-form {
+  width: 60%;
+  margin-left: 250px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+
+  padding: 15px;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-left: 50px;
+  padding-top: 20;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px; /* Adjust the padding-top value */
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #440241;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 4px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+.pro:hover {
+  box-shadow: 20px 20px 30px rgba(77, 2, 75, 0.271);
+}
+
+.pro img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+.pro .des span {
+  color: #606063;
+  font-size: 12px;
+}
+
+.pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+.pro .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 50px;
+}
+
+ul li {
+  list-style-type: none;
+}

@@ -1,0 +1,12 @@
+.MainDash {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 30px 0 60px 80px;
+  overflow-y: auto;
+  gap: 60px;
+  background-color: rgb(255, 246, 246);
+  
+  border-radius: 15px;
+}

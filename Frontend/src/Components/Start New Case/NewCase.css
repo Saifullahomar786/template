@@ -1,0 +1,17 @@
+.UserDetails {
+  width: 100%;
+  max-width: 500px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #922c88;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Additional styling for the container */
+.UserDetails {
+  border-radius: 16px;
+  margin-top: -80px;
+}
